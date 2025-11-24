@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>RECETAS</title>
+
+
+    <style>
+    body {
+        background-color: #eae2ab;
+        color: #1e2706;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin: 20px;
+    }
+.navbar {
+    background-color: #858f01;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 24px;
+    color: #ecece4 ;
+}
+
+    h1 {
+        color: #506801;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 700;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-shadow: 0 0 10px #506801;
+    }
+
+
+    h3 {
+        color: #506801;
+        text-align: center;
+        margin-top: 30px;
+        font-weight: 700;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+
+    p {
+        text-align: center;
+    }
+
+
+    .card {
+        background-color: #fdfcf3;
+        border: 2px solid #ccb73d;
+        border-radius: 10px;
+        box-shadow: 2px 4px 8px rgba(30, 39, 6, 0.2);
+        margin: 20px;
+        display: inline-block;
+        vertical-align: top;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+
+ .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 4px 6px 12px rgba(30, 39, 6, 0.3);
+    }
+   
+    .card-title {
+        color: #506801;
+        font-weight: 600;
+        font-size: 1.1rem;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+    .card-body {
+        background-color: #fffbe0;
+        border: 3px solid #858f01;
+        padding: 15px;
+    }
+
+
+    img.card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+
+    .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+
+    footer, p:last-of-type {
+        text-align: center;
+        color: #506801;
+        font-weight: 500;
+        margin-top: 40px;
+        border-top: 1px solid #ccb73d;
+        padding-top: 15px;
+    }
+     footer { text-align: 
+        center; background-color: 
+        #1e2706; 
+        color: #eae2ab;
+         padding: 15px;
+          margin-top: 30px; 
+          font-size: 0.9rem;
+         }
+  </style>
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="https://media.istockphoto.com/id/1400659573/es/vector/tractor-farm-agricultura-dise%C3%B1o-del-logotipo-ilustraci%C3%B3n-vectorial.jpg?s=612x612&w=0&k=20&c=gRdx0Vv8Est2ehZAmE5i3S8k5BwA1WoW0a5Lkhx8AQw="
+           alt="Logo" width="50px" height="46px" class="d-inline-block align-text-top">
+      Agrotech
+    </a>
+
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active text-light" href="index.html">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="productos.html">Productos</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="distribucion.html">Distribución</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="disposicion.html">Disposición</a></li>
+        <li class="nav-item"><a class="nav-link text-light" href="app.html">App</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<h1>NUESTRAS RECETAS</h1>
+<p>Aquí presentamos 7 de nuestras recetas más saludables y sencillas, de las cuales 5 son platillos salados y otros dos son ricos postres.</p>
+
+
+<h3>Platillos salados</h3>
+<div class="card" style="width: 18rem;">
+  <img src="https://mojo.generalmills.com/api/public/content/RCngmFENdkS5zrHuS7yeVw_gmi_hi_res_jpeg.jpeg?v=93b2631f&t=16e3ce250f244648bef28c5949fb99ff" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ensalada de Quinoa con Verduras Asadas</h5>
+    <p class="card-text">Ingredientes:
+        <ul>
+            <li>1 taza de quinoa cocida</li>
+            <li>1 calabacín en cubos</li>
+            <li>1 pimiento rojo en tiras</li>
+            <li>1 zanahoria en rodajas</li>
+            <li>1 cda. de aceite de oliva</li>
+            <li>Jugo de ½ limón, sal y pimienta</li>
+        </ul>
+        <p>Preparación:</p>
+        <ol>
+            <li>Asa las verduras con un poco de aceite hasta que estén tiernas.</li>
+            <li>Mezcla con la quinoa cocida.</li>
+            <li>Agrega limón, sal y pimienta al gusto.</li>
+        </ol>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div class="card" style="width: 18rem;">
+  <img src="https://d36fw6y2wq3bat.cloudfront.net/recipes/ensalada-fresca-de-garbanzos-y-atun/900/ensalada-fresca-de-garbanzos-y-atun_version_1717732915.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Ensalada de Garbanzos y Atún</h5>
+    <p class="card-text">Ingredientes:
+        <ul>
+            <li>1 taza de garbanzos cocidos</li>
+            <li>1 lata de atún en agua</li>
+            <li>½ pepino en cubos</li>
+            <li>1 tomate en cubos</li>
+            <li>¼ cebolla morada picada</li>
+            <li>1 cda. de aceite de oliva</li>
+            <li>Jugo de ½ limón, sal y pimienta</li>
+        </ul>
+        <p>Preparación:</p>
+        <ol>
+            <li>Mezcla todos los ingredientes en un tazón grande.</li>
+            <li>Añade el aceite, limón, sal y pimienta.</li>
+            <li>Sirve fría o a temperatura ambiente.</li>
+        </ol>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div class="card" style="width: 18rem;">
+  <img src="https://www.goodnes.com/sites/g/files/jgfbjl321/files/srh_recipes/c65f87d941686aba2c2a0f061f5ad35e.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Salteado de Pollo con Verduras</h5>
+    <p class="card-text">Ingredientes:
+        <ul>
+            <li>1 pechuga de pollo en tiras</li>
+            <li>1 zanahoria en bastones</li>
+            <li>1 pimiento (rojo o verde) en tiras</li>
+            <li>1 calabacín en rodajas</li>
+            <li>1 cda. de salsa de soya baja en sodio</li>
+            <li>1 cda. de aceite de oliva</li>
+        </ul>
+        <p>Preparación:</p>
+        <ol>
+            <li>Cocina el pollo en una sartén con el aceite hasta que dore.</li>
+            <li>Agrega las verduras y saltea 5 o 7 minutos.</li>
+            <li>Añade la salsa de soya y mezcla bien.</li>
+        </ol>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div class="card" style="width: 18rem;">
+  <img src="https://natirecetascaseras.com/wp-content/uploads/2025/05/arroz-con-verduras-y-huevo-frito-sencilla-y-sabrosa-by-nati-recetas-caseras.jpeg?w=1568" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Arroz Integral con Verduras y Huevo</h5>
+    <p class="card-text">Ingredientes:
+        <ul>
+            <li>1 taza de arroz integral cocido</li>
+            <li>½ taza de zanahoria en cubos</li>
+            <li>½ taza de chícharos</li>
+            <li>1 huevo</li>
+            <li>1 cda. de aceite de oliva</li>
+            <li>Salsa de soya al gusto</li>
+        </ul>
+        <p>Preparación:</p>
+        <ol>
+            <li>En una sartén, calienta el aceite y añade las verduras. Fríe unos 5 minutos.</li>
+            <li>Agrega el arroz y mezcla bien.</li>
+            <li>Empuja el arroz a un lado y cocina el huevo revuelto en el mismo sartén.</li>
+            <li>Mezcla todo y añade un chorrito de salsa de soya.</li>
+        </ol>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div class="card" style="width: 18rem;">
+  <img src="https://cheforopeza.com.mx/wp-content/uploads/2019/01/tacos-de-lechuga-con-gemrinado-de-lentejas-sin-desperdicio-receta.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Tacos de Lechuga con Lentejas</h5>
+    <p class="card-text">Ingredientes:
+        <ul>
+            <li>1 taza de lentejas cocidas</li>
+            <li>½ cebolla picada</li>
+            <li>1 diente de ajo picado</li>
+            <li>1 tomate picado</li>
+            <li>1 cda. de aceite de oliva</li>
+            <li>Hojas grandes de lechuga</li>
+        </ul>
+        <p>Preparación:</p>
+        <ol>
+            <li>Fríe cebolla y ajo en el aceite.</li>
+            <li>Añade las lentejas y tomate, cocina 5 minutos.</li>
+            <li>Sirve la mezcla dentro de las hojas de lechuga como si fueran tacos.</li>
+        </ol>
+    </p>
+  </div>
+</div>
+
+
+<br>
+<br>
+<br>
+
+
+<h3>Postres</h3>
+
+
+
+
+<div class="card" style="width: 18rem;">
+  <img src="https://storage.googleapis.com/fitia_recipe_images/GR-R-V-00008461%2Fv2%2Frect.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Plátano con Yogur y Avena</h5>
+    <p class="card-text">Ingredientes:
+        <ul>
+            <li>1 plátano</li>
+            <li>½ taza de yogur natural o griego</li>
+            <li>2 cdas. de avena</li>
+            <li>Canela al gusto</li>
+        </ul>
+        <p>Preparación:</p>
+        <ol>
+            <li>Corta el plátano en rodajas.</li>
+            <li>Coloca capas de yogur, avena y plátano.</li>
+            <li>Espolvorea con canela y refrigera 10 minutos.</li>
+        </ol>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div class="card" style="width: 18rem;">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-FuVMsSzv5Y2JVNOSjT87udoc9DB2CWGEQ&s" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Trufas Energéticas de Avena y Cacao</h5>
+    <p class="card-text">Ingredientes:
+        <ul>
+            <li>1 taza de avena</li>
+            <li>2 cdas. de cacao en polvo</li>
+            <li>3 cdas. de miel o jarabe natural</li>
+            <li>2 cdas. de crema de cacahuate o mantequilla de maní</li>
+            <li>1 cdita. de esencia de vainilla (opcional)</li>
+            <li>2 cdas. de agua o leche (solo si la mezcla queda muy seca)</li>
+        </ul>
+        <p>Preparación:</p>
+        <ol>
+            <li>Mezcla todos los ingredientes en un recipiente hasta formar una masa manejable.</li>
+            <li>Si está muy seca, añade un poco de agua o leche.</li>
+            <li>Forma bolitas pequeñas con las manos.</li>
+            <li>Puedes pasarlas por coco rallado, avena molida o cacao para cubrirlas.</li>
+            <li>Refrigera por al menos 20 o 30 minutos antes de servir.</li>
+        </ol>
+        <p>✨ Tip: se conservan en el refrigerador hasta una semana, perfectas como snack o postre rápido.</p>
+    </p>
+  </div>
+</div>
+
+
+
+
+<br>
+<br>
+
+
+<p>Así, cuando tengas poco tiempo, hambre y productos AGROTECH, puedes prepararte cualquiera de estas ricas recetas en cuestión de minutos.</p>
+
+ <footer>
+    © 2025 AGROTECH | Unidos por un México mejor
+  </footer>
+
+
+</body>
+</html>
+
+
